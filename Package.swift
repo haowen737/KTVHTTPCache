@@ -24,7 +24,7 @@ let package = Package(
             name: "KTVHTTPCache",
             dependencies: ["CocoaAsyncSocket"],
             path: "KTVHTTPCache",
-            publicHeadersPath: ".",
+            publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("Classes/KTVHCCommon"),
                 .headerSearchPath("Classes/KTVHCDataStorage"),
